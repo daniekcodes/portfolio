@@ -16,5 +16,5 @@ export default App;
 
 
 
-// https://www.youtube.com/watch?v=hQjlM-8C4Ps&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=24&ab_channel=LamaDev
-// 
+// https://www.youtube.com/watch?v=hQjlM-8C4Ps&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=25&ab_channel=LamaDev
+// 1:02:07
