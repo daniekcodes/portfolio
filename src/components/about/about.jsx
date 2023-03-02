@@ -20,14 +20,9 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
-                <p className="a-sub">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, eos!
-                </p>
+                
                 <p className="a-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                I am a motivated and enthusiastic web development student at DCI. I have a passion for creating innovative and user-friendly websites and a strong background in information technology, customer service, and sales. I am learning various technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB.
                 </p>
             </div>
         </div>
