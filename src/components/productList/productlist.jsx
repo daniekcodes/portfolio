@@ -21,8 +21,8 @@ function ProductList() {
     let schoolIconStyles = { background: "#f9c74f" };
 
     return (
-        <div>
-            <h1 className="title">Timeline</h1>
+        <div className="text">
+            <h1 className="pl-title">Timeline</h1>
             <VerticalTimeline>
                 {timelineElements.map((element) => {
                     let isWorkIcon = element.icon === "work";

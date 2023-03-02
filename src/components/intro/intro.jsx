@@ -1,5 +1,5 @@
 import "./intro.css"
-import me from "../../img/me.png"
+import me from "../../img/me.jpg"
 import { ThemeContext } from '../../context';
 import { useContext } from 'react'
 

@@ -22,13 +22,13 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #333;
+  background-color: white;
 }
 
 .a-card {
-  width: 70vh;
-  height: 70vh;
-  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+ 
   position: relative;
   overflow: hidden;
 }
@@ -80,7 +80,7 @@
 
 .a-bg {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  background-color: #333;
+  background-color: white;
   width: 100%;
   height: 100%;
   position: absolute;
