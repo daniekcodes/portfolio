@@ -6,7 +6,7 @@
   .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #59b256;
+    background-color: #333;
     position: absolute;
   }
   
@@ -74,20 +74,23 @@
   button {
     border: none;
     padding: 15px;
-    background-color: #59b256;
+    background-color: #7f837e;
     color: white;
     font-weight: 500;
     cursor: pointer;
   }
   
   @media screen and (max-width: 480px) {
+    .c {
+      height: 100vh;
+    }
     .c-wrapper {
       flex-direction: column;
       padding: 0px 50px;
     }
   
     .c-title {
-      font-size: 30px;
+      font-size: 40px;
     }
   
     .c-info-item {
@@ -103,10 +106,11 @@
       margin-top: 0px;
       display: flex;
       flex-wrap: wrap;
+      width: 95%;
     }
   
     input {
-      width: 35%;
+      width: 95%;
       height: 40px;
       margin: 10px;
       margin-left: 0;
