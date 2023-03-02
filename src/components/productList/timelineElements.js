@@ -13,7 +13,7 @@ let timelineElements = [
         title: "IT Support Specialist - 2nd Level @ N26 Bank GmbH",
         location: "Berlin, Germany",
         description:
-            "TBC",
+            "TBA",
         date: "October 2019 - January 2021",
         icon: "work",
     },
@@ -22,7 +22,7 @@ let timelineElements = [
         title: "IT Cloud Engineer @ ALSO GmbH",
         location: "Berlin, Germany",
         description:
-            "TBC",
+            "TBA",
         date: "October 2016 - August 2019",
         icon: "work",
     },
@@ -31,7 +31,7 @@ let timelineElements = [
         title: "Commerce Billing and Invoices Support Agent @ arvato GmbH",
         location: "Münster, Germany",
         description:
-            "TBC",
+            "TBA",
         date: "April 2016 - October 2016",
         icon: "work",
     },
@@ -40,7 +40,7 @@ let timelineElements = [
         title: "IT Support Engineer - 1st Level @ e-office",
         location: "Houten, Netherlands",
         description:
-            "TBC",
+            "TBA",
         date: "July 2012 - September 2015",
         icon: "work",
     },
@@ -49,7 +49,7 @@ let timelineElements = [
         title: "Marketing Secondary Degree @ ROC van Twente",
         location: "Almelo, Netherlands",
         description:
-            "TBC",
+            "TBA",
         date: "July 2009 - July 2010",
         icon: "school",
     },

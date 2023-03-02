@@ -29,26 +29,14 @@ const Contact = () => {
     return (
         <div className="c">
             <div className="c-bg"></div>
-            <div className="c-wrapper">
-                <div className="c-right">
+                <div className="c-wrapper">
+                <div className="c-miniwrapper">
                     <h1 className="c-title">Contact me</h1>
-                    {/* <div className="c-info">
-                        <div className="c-info-item">
-                            <img src={Phone} alt="" className="c-icon" />
-                            +49 123456789
-                        </div>
-                        <div className="c-info-item">
-                            <img className="c-icon" src={Email} alt="" />
-                            contact@contact.de
-                        </div>
-                        <div className="c-info-item">
-                            <img className="c-icon" src={Address} alt="" />
-                            Musterstr. 1, 12345 Musterstadt
-                        </div>
-                    </div> */}
-                    <p className="c-desc">
+                   
+                    <p className="c-p">
                         <b>Get in touch. </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate quas facilis illo quam eaque doloremque hic et quos, inventore sunt harum officiis omnis animi eos. Eveniet libero quibusdam harum?
                     </p>
+                    </div>
                     <form ref={form} onSubmit={sendEmail}>
                         <input style={{
                             backgroundColor: darkMode ? "#333" : "white",
@@ -81,7 +69,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 
