@@ -5,13 +5,13 @@ import { useContext } from 'react'
 
 const About = () => {
     const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+    const darkMode = theme.state.darkMode;
     return (
         <div className="a">
             <div className="a-left">
-            <div className="a-bg" style={{
-          backgroundColor: darkMode ? "#d1d1d1" : "#333",
-        }}></div>
+                <div className="a-bg" style={{
+                    backgroundColor: darkMode ? "white" : "#333",
+                }}></div>
                 <div className="a-card">
                     <img src={meabout}
                         alt=""
