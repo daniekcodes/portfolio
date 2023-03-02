@@ -43,9 +43,7 @@ const Intro = () => {
               }}>MongoDB</div>
             </div>
           </div>
-          <p className="i-desc">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa officia deleniti laborum enim voluptas nobis est! Minima modi repellat aut. Sint quo, architecto quia cum repellendus ducimus voluptatibus consequatur.
-          </p>
+        
         </div>
       </div>
       <div className="i-right">
