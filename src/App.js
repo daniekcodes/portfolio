@@ -28,10 +28,3 @@ const App = () => {
 }
 
 export default App;
-
-
-
-// https://www.youtube.com/watch?v=hQjlM-8C4Ps&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=25&ab_channel=LamaDev
-// 1:18:27
-
-// https://www.youtube.com/watch?v=-rnkToU2_lw

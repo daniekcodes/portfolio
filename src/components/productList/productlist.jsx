@@ -17,8 +17,8 @@ import "react-vertical-timeline-component/style.min.css";
 function ProductList() {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
-    let workIconStyles = { background: "#06D6A0" };
-    let schoolIconStyles = { background: "#f9c74f" };
+    let workIconStyles = { background: "#33cccc" };
+    let schoolIconStyles = { background: "#ffcc66" };
 
     return (
         <div className="text">
@@ -72,28 +72,5 @@ function ProductList() {
         </div>
     );
 }
-// <div className="pl">
-//     <div className="pl-texts">
-//         <h1 className="pl-title">Create & inspire.</h1>
-//         <p className="pl-desc">
-//             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate obcaecati odio laudantium dolores exercitationem reprehenderit hic aut temporibus iure similique et, pariatur perferendis illum at rem! Voluptatem quia cum odit?
-//         </p>
-//     </div>
-//     <div className="pl-list">
-//         {
-//             products.map((item) => (
-//                 <Product key={
-//                     item.id
-//                 }
-//                     img={
-//                         item.img
-//                     }
-//                     link={
-//                         item.link
-//                     } />
-//             ))
-//         } </div>
-// </div>
-
 
 export default ProductList;

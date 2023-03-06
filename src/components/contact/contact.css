@@ -3,19 +3,6 @@
   position: relative;
 }
 
-/* .c-bg {
-    width: 40px;
-    height: 100%;
-    background-color: #333;
-    position: absolute;
-  } */
-
-
-
-/* .c-left {
-  flex: 1;
-} */
-
 .c-wrapper {
   flex: 1;
   display: flex;
@@ -25,9 +12,9 @@
 }
 
 .c-miniwrapper {
-padding-left:20vw;
-padding-right: 18vw;
-padding-top: 12vh
+  padding-left: 20vw;
+  padding-right: 18vw;
+  padding-top: 12vh
 }
 
 .c-title {
@@ -35,7 +22,7 @@ padding-top: 12vh
 }
 
 .c-p {
-padding: 50px 0;
+  padding: 50px 0;
 
 }
 
@@ -52,10 +39,6 @@ padding: 50px 0;
   height: 30px;
   margin-right: 20px;
 }
-
-/* .c-desc {
-  font-weight: 200;
-} */
 
 form {
   margin-top: 20px;
@@ -97,16 +80,27 @@ button {
   left: 0;
 }
 
-img {
-  width: 80px;
+.social-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .img-wrapper {
-  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 10vw;
+  padding: 0 50px;
+  width: 100%;
 
+}
+
+.contact-img {
+  width: 100px;
+  height: 100px;
+}
+
+svg {
+  fill: white
 }
 
 @media screen and (max-width: 480px) {
