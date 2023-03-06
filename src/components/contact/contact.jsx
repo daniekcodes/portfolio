@@ -35,12 +35,10 @@ const Contact = () => {
             });
     }
     return (
-        <div className="c" style={{
-            backgroundColor: darkMode ? "#333" : "white"
-        }}>
+        <div className="c" >
             <div className="c-bg"></div>
             <div className="c-wrapper" style={{
-            backgroundColor: darkMode ? "#333" : "white"
+            backgroundColor: darkMode ? "#222" : "white"
         }}>
                 <div className="c-miniwrapper">
                     <h1 className="c-title">Contact me</h1>
