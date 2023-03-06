@@ -2,7 +2,7 @@ import './App.css';
 import { useContext } from 'react';
 import Intro from './components/intro/intro';
 import About from './components/about/about';
-import TimeLine from './components/productList/timeline';
+import TimeLine from './components/timeline/timeline';
 import Contact from './components/contact/contact';
 import Toggle from './components/toggle/toggle';
 import { ThemeContext } from './context';

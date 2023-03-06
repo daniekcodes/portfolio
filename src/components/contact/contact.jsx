@@ -1,6 +1,4 @@
 import './contact.css'
-// import Linkedin from '../../img/linkedin.svg'
-// import Github from '../../img/github.svg'
 import { ReactComponent as Linkedin } from '../../img/linkedin.svg';
 import { ReactComponent as Github } from '../../img/github.svg';
 
