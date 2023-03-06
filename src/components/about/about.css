@@ -28,7 +28,7 @@
 .a-card {
   width: 100%;
   height: 100%;
- 
+
   position: relative;
   overflow: hidden;
 }
@@ -94,6 +94,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .a-left {
