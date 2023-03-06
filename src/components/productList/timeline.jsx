@@ -1,6 +1,4 @@
-import "./productlist.css";
-// import Product from "../product/product";
-// import {products} from "../../data";
+import "./timeline.css"
 import { ReactComponent as WorkIcon } from '../../img/work.svg'
 import { ReactComponent as SchoolIcon } from '../../img/school.svg'
 import timelineElements from "./timelineElements";
@@ -14,7 +12,7 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 
-function ProductList() {
+function TimeLine() {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
     let workIconStyles = { background: "#33cccc" };
@@ -73,4 +71,4 @@ function ProductList() {
     );
 }
 
-export default ProductList;
+export default TimeLine;

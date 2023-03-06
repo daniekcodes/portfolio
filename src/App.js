@@ -2,7 +2,7 @@ import './App.css';
 import { useContext } from 'react';
 import Intro from './components/intro/intro';
 import About from './components/about/about';
-import ProductList from './components/productList/productlist';
+import TimeLine from './components/productList/timeline';
 import Contact from './components/contact/contact';
 import Toggle from './components/toggle/toggle';
 import { ThemeContext } from './context';
@@ -21,7 +21,7 @@ const App = () => {
       <Toggle />
       <Intro />
       <About />
-      <ProductList />
+      <TimeLine />
       <Contact />
     </div>
   )
