@@ -11,6 +11,9 @@
   justify-content: center;
 }
 
+h1 {
+  
+}
 .c-miniwrapper {
   padding-left: 20vw;
   padding-right: 18vw;
@@ -95,12 +98,8 @@ button {
 }
 
 .contact-img {
-  width: 100px;
-  height: 100px;
-}
-
-svg {
-  fill: white
+  width: 60px;
+  height: 60px;
 }
 
 @media screen and (max-width: 480px) {
@@ -110,7 +109,8 @@ svg {
 
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    height: 100vh;
+  
   }
 
   .c-title {
