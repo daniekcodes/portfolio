@@ -1,6 +1,8 @@
 import './contact.css'
-import Linkedin from '../../img/linkedin.svg'
-import Github from '../../img/github.svg'
+// import Linkedin from '../../img/linkedin.svg'
+// import Github from '../../img/github.svg'
+import { ReactComponent as Linkedin } from '../../img/linkedin.svg';
+import { ReactComponent as Github } from '../../img/github.svg';
 
 import { useRef, useState, useContext } from 'react' // accessing DOM nodes or elements directly
 import emailjs from '@emailjs/browser';
@@ -11,7 +13,13 @@ const Contact = () => {
     const [done, setDone] = useState(false);
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
+    const linkedinStyle = {
+        fill: darkMode ? "#fff" : "#0077B5",
+    };
 
+    const githubStyle = {
+        fill: darkMode ? "#fff" : "#333",
+    };
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
@@ -60,10 +68,10 @@ const Contact = () => {
                 <div className="social-wrapper">
                     <div className="img-wrapper">
                         <a href="https://www.linkedin.com/in/daniek-schuiling/" target="_blank" rel="noreferrer">
-                            <img className="contact-img" src={Linkedin} alt="Linkedin" />
+                            <Linkedin className="contact-img" style={linkedinStyle} />
                         </a>
                         <a href="https://github.com/daniekio" target="_blank" rel="noreferrer">
-                            <img className="contact-img" src={Github} alt="Github" />
+                            <Github className="contact-img" style={githubStyle} />
                         </a>
                     </div>
                 </div>
