@@ -12,9 +12,19 @@ This is my portfolio website that showcases my skills and projects in web develo
 
 ## Installation
 
-To install this website, you need to have Git installed on your computer. You can use the following command to clone this repository:
+To install this website, you need to have Git and NPM installed on your computer. You can use the following command to clone this repository:
 
 `git clone https://github.com/daniekio/portfolio`
+
+Then, you need to install the dependencies using NPM:
+
+`npm install`
+
+After that, you can run the website locally using NPM:
+
+`npm start`
+
+This will open the website in your browser at http://localhost:3000.
 
 Then, you can open the index.html file in your browser to view the website.
 
