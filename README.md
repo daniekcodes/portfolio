@@ -1,6 +1,6 @@
 # Daniekio's Portfolio Website
 
-This is my portfolio website that showcases my skills and projects in web development, data analysis, and machine learning.
+This is my portfolio website that showcases my skills in web development.
 
 ## Features
 
