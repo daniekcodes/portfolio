@@ -4,7 +4,7 @@ let timelineElements = [
         title: "Web Development Weiterbildung @ Digital Career Institute",
         location: "Berlin, Germany",
         description:
-            "HTML, CSS, JavaScript, React, Node.js and MongoDB",
+            "Full-Stack (MERN) Web Development and German courses (C1).",
         date: "July 2022 - present",
         icon: "school",
     },
@@ -13,43 +13,34 @@ let timelineElements = [
         title: "IT Support Specialist - 2nd Level @ N26 Bank GmbH",
         location: "Berlin, Germany",
         description:
-            "TBA",
+            "As a second-level IT Support Specialist, resolved technical issues for various platforms and applications, managed access requests and implemented identity management protocols for system security, developed and maintained IT documentation, and led multiple projects to enhance system performance and user experience while ensuring seamless operations and minimal downtime.",
         date: "October 2019 - January 2021",
         icon: "work",
     },
     {
         id: 3,
-        title: "IT Cloud Engineer @ ALSO GmbH",
+        title: "IT Support Specialist - 1st/2nd Level @ ALSO GmbH",
         location: "Berlin, Germany",
         description:
-            "TBA",
+            "Monitored and administered cloud applications for optimal performance, provided effective first and second level technical support to minimize downtime, and offered timely resolution to individual and team customer inquiries related to cloud services.",
         date: "October 2016 - August 2019",
         icon: "work",
     },
     {
         id: 4,
-        title: "Commerce Billing and Invoices Support Agent @ arvato GmbH",
-        location: "Münster, Germany",
-        description:
-            "TBA",
-        date: "April 2016 - October 2016",
-        icon: "work",
-    },
-    {
-        id: 5,
-        title: "IT Support Engineer - 1st Level @ e-office",
+        title: "IT Support Specialist - 1st Level @ e-office",
         location: "Houten, Netherlands",
         description:
-            "TBA",
+            "Provided technical support, resolved issues, performed server maintenance, developed manuals, and conducted training sessions to ensure uninterrupted operations and enable internal stakeholders to utilize IT resources effectively.",
         date: "July 2012 - September 2015",
         icon: "work",
     },
     {
-        id: 6,
-        title: "Marketing Secondary Degree @ ROC van Twente",
+        id: 5,
+        title: "Associate Degree Marketing @ ROC van Twente",
         location: "Almelo, Netherlands",
         description:
-            "TBA",
+            "Education program that prepares for various roles in (online) marketing.",
         date: "July 2009 - July 2010",
         icon: "school",
     },
