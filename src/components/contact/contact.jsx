@@ -42,7 +42,7 @@ const Contact = () => {
                     <p className="c-p">
                         <b>Get in touch
                         </b>
-                        . If you want to work with me or just say hi, feel free to contact me via the web form below or send an email to info@daniek.io. I’d love to hear from you!
+                        . If you want to work with me or just say hi, feel free to contact me via the web form below or send an email to hello@daniekcodes.de. I’d love to hear from you!
                     </p>
                 </div>
                 <form ref={form}
@@ -93,7 +93,7 @@ const Contact = () => {
                             <Linkedin className="contact-img"
                                 style={linkedinStyle}/>
                         </a>
-                        <a href="https://github.com/daniekio" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/daniekcodes" target="_blank" rel="noreferrer">
                             <Github className="contact-img"
                                 style={githubStyle}/>
                         </a>
